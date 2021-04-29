@@ -212,7 +212,7 @@ body{
     position: relative;
       left: 16%;
       top: 150px;
-    width:30%;
+    width:400px;
 }
 .songtitle #bombthreattitle:hover {
     color: white;
@@ -222,7 +222,7 @@ body{
     left: 16%;
     margin-top:50px;
     top: 300px;
-    width:30%;
+    width:400px;
 
 }
  .songtitle #ghostcastletitle:hover {
@@ -234,7 +234,7 @@ body{
        left: 16%;
         margin-top:50px;
        top: 450px;
-       width:30%;
+       width:400px;
 }
  .songtitle #bajatitle:hover {
     position: relative;
@@ -245,7 +245,7 @@ body{
        left: 16%;
         margin-top:50px;
        top: 600px;
-       width:30%;
+       width:400px;
  }
  .songtitle #boysinbluetitle:hover {
     position: relative;
