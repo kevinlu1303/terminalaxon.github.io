@@ -369,7 +369,7 @@ PICS
     position: relative;
     width: 60%;
     left: 20%;
-    top:40%;
+    top:50px;
     height:auto;
 }
 #bombthreatpic20 {
@@ -381,17 +381,17 @@ PICS
 }
 #ghostcastlepic10 {
     position: relative;
-    width: 30%;
-    top:50%;
+    width: 40%;
+    top:50px;
     height:auto;
     left:0px;
 }
 #ghostcastlepic20 {
     position: relative;
-    width: 30%;
+    width: 40%;
     height:auto;
-    top: 0%;
-    left: 40%;
+    top: 50px;
+    left: 10%;
 }
 #bajapic10 {
     position: relative;
@@ -401,22 +401,23 @@ PICS
     left:0%
 }
 #bajapic20 {
-    position: absolute;
+    position: relative;
     width: 60%;
     height:auto;
-    top: 400px;
+    top: -100px;
     left:40%;
 }
 #boysinbluepic10 {
     position: relative;
-    width: 30%;
+    width: 40%;
     height:auto;
-     left:60%;
-     top: px;
+     left:40%;
+     top: 100px;
 }
 #boysinbluepic20 {
     position: absolute;
     width: 50%;
+    left: 0%;
     height:auto;
 
 }
