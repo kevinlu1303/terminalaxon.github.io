@@ -1,0 +1,518 @@
+html {
+	background-color: #181818;
+	color: #fff;
+	padding: 0px;
+	margin-right:0px;
+	margin: 0px;
+	width: 100%;
+	height: 1600px;
+	position: relative;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.mainpagecontent {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top = 100px;
+    /*transition = all 2s;
+    */
+}
+
+body{
+    background-color: #121212;
+
+    	color: #fff;
+    	padding: 0px;
+    	margin-right:0px;
+    	margin: 0px;
+    	width: 100%;
+    	height: 1600px;
+    	position: relative;
+    	overflow-y: hidden;
+    	overflow-x: hidden;
+}
+.noise {
+    position: absolute;
+      top: -100px;
+      right: -500px;
+      bottom: -500px;
+      left: -500px;
+      background: transparent url(https://media.giphy.com/media/xWlgutH3ZZF6w/giphy.gif) 0 0;
+      background-size: 320px 320px;
+    	opacity: .04;
+    	animation: noise 1s steps(8,end) infinite both;
+}
+.noise-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  overflow: hidden;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+  }
+}
+#name {
+    font-family: "ubuntu";
+    top: 100px;
+    left: 200px;
+    font-size: 40px;
+    height: 40px;
+    position: relative;
+     position: absolute;
+        height: auto;
+        width: 00px;
+        top: 180px;
+     opacity: .7;
+}
+#name:hover {
+    opacity: 1;
+
+
+}
+#name #logo {
+    width: 350px;
+    height: auto;
+    position: absolute;
+}
+#name #logo:hover {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    border: 5px solid "white";
+}
+#homebutton{
+    position: absolute;
+    font-family: Ubuntu;
+    font-size: 30px;
+    top: 200px;
+    left: 80%;
+    color:white;
+}
+#homebutton:hover {
+    color:white;
+    font-size: 35px;
+    top:195px;
+    left:79%;
+}
+#aboutbutton{
+    position: absolute;
+    font-family: Ubuntu;
+    font-size: 30px;
+    top: 200px;
+    left: 88%;
+    color: #828282;
+}
+#aboutbutton:hover {
+    color:white;
+    font-size:35px;
+    top: 195px;
+    left:87%;
+}
+
+#bar1 {
+     border-left: 4px solid grey;
+     height: 400px;
+     margin-top: 100px;
+     position: absolute;
+     left: 8%;
+     z-index: 10;
+ }
+
+ #bar2 {
+     border-left: 4px solid grey;
+     height: 400px;
+     margin-top: 650px;
+     position: absolute;
+     left: 8%;
+ }
+ #bar1-1 {
+     border-left: 4px solid white;
+     height: 200px;
+     margin-top: 100px;
+     position: absolute;
+     left: 8%;
+     height: 0px;
+     transition: 1s;
+     z-index: 50;
+ }
+ #bar2-1 {
+     border-left: 4px solid white;
+     height: 200px;
+     margin-top: 650px;
+     position: absolute;
+     left: 8%;
+     height: 0px;
+     transition: 1s;
+ }
+ #counter {
+ position: absolute;
+ margin-top: 550px;
+ font-family: Ubuntu;
+ font-size: 60px;
+
+ left:6.4%;
+ color: #828282;
+ }
+#spinninglogo {
+    height: auto;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    opacity: .7;
+}
+
+#spinninglogo:hover {
+    opacity: 1;
+}
+
+#headerPic {
+    background-image: url('../eurorack.gif');
+    background-size: cover;
+    width: 100%;
+    top: 0px;
+    position: relative;
+    height: 250px;
+    border-bottom: 3px solid #828282;
+}
+
+
+.number {
+    font-family: OCR;
+    color: #828282;
+    position: absolute;
+    top: -24px;
+    left: -14px;
+    font-size: 16px;
+}
+.songtitle {
+    position: relative;
+    top: 50px;
+    font-family: OCR;
+    color: #828282;
+    font-size: 30;
+}
+
+.songtitle #bombthreattitle{
+    position: relative;
+      left: 16%;
+      top: 150px;
+}
+.songtitle #bombthreattitle:hover {
+    color: white;
+ }
+.songtitle #ghostcastletitle {
+    position: relative;
+    left: 16%;
+    margin-top:50px;
+    top: 300px;
+
+}
+ .songtitle #ghostcastletitle:hover {
+    position: relative;
+    color: white;
+ }
+.songtitle #bajatitle {
+      position: relative;
+       left: 16%;
+        margin-top:50px;
+       top: 450px;
+}
+ .songtitle #bajatitle:hover {
+    position: relative;
+    color: white;
+ }
+.songtitle #boysinbluetitle {
+     position: relative;
+       left: 16%;
+        margin-top:50px;
+       top: 600px;
+ }
+ .songtitle #boysinbluetitle:hover {
+    position: relative;
+    color: white;
+ }
+.songs {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+h1 {
+font-family:Ubuntu;
+letter-spacing: 3px;
+font-weight: normal;
+color: "#00000";
+font-size:40px;
+
+}
+#hider1 {
+    position:absolute;
+    top:100px;
+    left: 50%;
+    width: 100%;
+    height: 1200px;
+    overflow:hidden;
+    z-index: 999;
+
+}
+#hider2 {
+    position:absolute;
+    top:14px;
+    left: 50%;
+    width: 100%;
+    height: 1200px;
+    overflow:hidden;
+    z-index: 999;
+
+}
+#hider3 {
+    position:absolute;
+    top:-72px;
+    left: 50%;
+    width: 100%;
+    height: 1200px;
+    overflow:hidden;
+    z-index: 999;
+
+}
+#hider4 {
+    position:absolute;
+    top:-158px;
+    left: 50%;
+    width: 100%;
+    height: 1200px;
+    overflow:hidden;
+    z-index: 999;
+
+}
+
+.songinfobombthreat {
+position: absolute;
+width: 100%;
+margin-top:-100px;
+top:1000px;
+opacity: 0;
+transition: opacity .2s;
+transition: top 1s;
+transition: margin-top 1s;
+transition: all 2s;
+}
+.songinfoghostcastle {
+position: absolute;
+margin-top:-14px;
+top: 1000px;
+opacity: 0;
+width: 100%;
+transition: opacity .2s;
+transition: top 1s;
+transition: margin-top 1s;
+transition: all 2s;
+}
+
+.songinfoboysinblue {
+position: absolute;
+margin-top:158px;
+top: 1000px;
+width: 100%;
+opacity: 0;
+transition: top 1s;
+transition: opacity .2s;
+transition: all 1s;
+}
+.songinfobaja {
+position: absolute;
+margin-top: 72px;
+top:1000px;
+width: 100%;
+opacity:0;
+transition: top 1s;
+transition: opacity .2s;
+transition: all 1s;
+}
+.info {
+position: absolute;
+font-size: 18px;
+top: 220px;
+left: 20px;
+max-width: 40%;
+min-width: 20%;
+transition: all 3s;
+}
+/*
+PICS
+*/
+#bombthreatpic10 {
+    position: absolute;
+    width: 400px;
+    left: 400px;
+    top:500px;
+    height:auto;
+}
+#bombthreatpic20 {
+    position: absolute;
+    width: 400px;
+    height:auto;
+    left: 50px;
+    top:700px;
+}
+#ghostcastlepic10 {
+    position: absolute;
+    width: 300px;
+    top:500px;
+    height:auto;
+    left:0px;
+}
+#ghostcastlepic20 {
+    position: absolute;
+    width: 300px;
+    height:auto;
+    top:500px;
+    left: 400px;
+}
+#bajapic10 {
+    position: absolute;
+    width: 400px;
+    height:auto;
+    top:500px;
+    left:0%
+}
+#bajapic20 {
+    position: absolute;
+    width: 400px;
+    height:auto;
+    top:760px;
+    left:18%
+}
+#boysinbluepic10 {
+    position: absolute;
+    width: 300px;
+    height:auto;
+     left:500px;
+     top: 300px;
+}
+#boysinbluepic20 {
+    position: absolute;
+    width: 400px;
+    height:auto;
+    top:300px;
+
+}
+/*
+ABOUT PAGE
+*/
+.aboutpagecontent {
+    position:absolute;
+    visibility: 0;
+    margin-top: 1000px;
+    opacity:0;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top = 10000px;
+    transition = all 2s;
+    z-index: 0;
+}
+.aboutpara {
+    position: absolute;
+    width: 50%;
+    height:500px;
+    alight: center;
+    font-family: OCR;
+    left:25%;
+    text-align: center;
+    top:150px;
+    color: #F1F1F1;
+    font-size: 20px;
+}
+.aboutpara #epoutnow{
+    font-size: 40px;
+}
+
+#eppic {
+    position:absolute;
+    width:50%;
+    height:auto;
+    left:37.5%;
+    top:500px;
+}
+#seperator {
+    position:absolute;
+    width:80%;
+    left:10%;
+    top: 1000px;
+     border-bottom: 3px solid white;
+}
+.emailsignup {
+    top: 1100px;
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    left:15%;
+    font-family: OCR;
+    font-size: 40px;
+}
+#signup{
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    position = absolute;
+    width: 20%;
+    height: 40px;
+    color:gray;
+    font-family: UbuntuMono;
+
+}
+#emailform{
+    position: absolute;
+    top:1200px;
+    left:36%;
+    background-color: #161616;
+    font-family: OCR;
+    text-align: left;
+    border: 2px solid white;
+}
+#signupbutton{
+    position:absolute;
+    background-color: #161616;
+    color:white;
+    top:1200px;
+    left:60%;
+    height: 40px;
+    font-family:OCR;
+    border: 2px solid white;
+}
+/*
+FONTS
+*/
+@font-face{
+font-family: mohave;
+src: url('mohave.ttf'), url('mohave.ttf') format ('ttf');
+}
+
+@font-face{
+font-family: OCR;
+src: url('OCRAStd.woff'), url('ORCAStd.woff') format('woff');}
+
+@font-face{
+font-family: Ubuntu;
+
+src: url('UbuntuMono-Regular.ttf'), url('UbuntuMono-Regular.ttf') format('tff');
+}
+
