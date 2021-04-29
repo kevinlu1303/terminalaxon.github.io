@@ -196,7 +196,7 @@ body{
 .number {
     font-family: OCR;
     color: #828282;
-    position: relative;
+    position: absolute;
     top: -30px;
     left: -14px;
     font-size: 16px;
