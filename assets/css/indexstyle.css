@@ -441,13 +441,13 @@ ABOUT PAGE
 }
 .aboutpara {
     position: absolute;
-    width: 50%;
+    width: 80%;
     height:500px;
     alight: center;
     font-family: OCR;
-    left:25%;
+    left:10%;
     text-align: center;
-    top:100px;
+    top:150px;
     color: #F1F1F1;
     font-size: 20px;
 }
